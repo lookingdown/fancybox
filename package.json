@@ -30,6 +30,9 @@
     "gulp-util": "^3.0.8",
     "jshint": "^2.9.4"
   },
+  "resolutions": {
+    "natives": "1.1.3"
+  },
   "keywords": [
     "touch",
     "responsive",
