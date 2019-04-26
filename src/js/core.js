@@ -3233,8 +3233,8 @@
             self.setTranslate($el, {
               top: to.top,
               left: to.left,
-              width: from.width * to.scaleX,
-              height: from.height * to.scaleY,
+              width: Math.round(from.width * to.scaleX),
+              height: Math.round(from.height * to.scaleY),
               scaleX: 1,
               scaleY: 1
             });
